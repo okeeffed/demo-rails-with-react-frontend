@@ -30,10 +30,10 @@ Update `app/javascript/application.ts`:
 ```js
 // Entry point for the build script in your package.json
 import "@hotwired/turbo-rails";
-import "./components/clock";
+import "./components/application";
 ```
 
-Inside of `app/javascript/application.ts`:
+Inside of `app/javascript/components/application.ts`:
 
 ```tsx
 import * as React from "react";
